@@ -1,0 +1,534 @@
+body {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	color: #606060;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12pt;
+	width: 70%;
+}
+
+.wrapper {
+	border-radius: 0.5em;
+	width: 1080px;
+	min-height: 1040px;
+	position: relative;
+ 	border: 3px solid orange;
+ 	border-left: 50px solid orange;
+  	padding: 0px;
+  	color: rgba(black, 0.5);
+  	font-size: small;
+  	display: inline-block;
+}
+
+p {
+	color: black;
+	font-size: 10pt;
+}
+
+p.titular {
+	position: relative;
+	font-size: 10pt;
+	text-align: center;
+	font-weight: 700;
+	top: -10px;
+	letter-spacing: 0.25pt;
+}
+
+p.supply_list {
+	position: relative;
+	font-size: 7.5pt;
+	text-align: justify;
+	top: -9px;
+	font-style: italic;
+	color: white;
+}
+
+h1 {
+	font-size: 26pt;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	font-weight:700;
+}
+
+p.chefsnoteshead {
+	position: relative;
+	font-size: 24pt;
+	letter-spacing: 0.5pt;
+	color: white;
+	font-style: italic;
+	font-weight: 700;
+	top: -24px;
+	left: 15px;
+}
+
+p.chefsnotebook {
+	font-size: 12pt;
+	color: black;
+	text-align: justify;
+}
+
+p.stepname {
+	position: relative;
+	letter-spacing: 0.05pt;
+	font-size: 8pt;
+	color: white;
+	font-weight: 700;
+	top: -7px;
+	text-transform: uppercase;
+	left: 15px;
+}
+
+p.stepnumber {
+	position: relative;
+	font-size: 24pt;
+	color: white;
+	font-weight: 700;
+	top: -42px;
+	left: 18px;
+}
+
+p.steptitle {
+	position: relative;
+	font-size: 15pt;
+	color: white;
+	font-style: italic;
+	top: -112px;
+	left: 60px;
+	vertical-align: middle;
+}
+
+p.extend {
+	position: absolute;
+	width: 256px;
+	height: 41px;
+	left: -3px;
+	top: -3px;
+	margin: 0px;
+	border: 0px;
+	padding: 10px 0px 0px 0px;
+	text-align: center;
+	font-size: 12pt;
+	color: white;
+	font-weight: 400;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: .1pt;
+	
+}
+
+p.extend:hover {
+	font-weight: 700;
+}
+
+p.tutorialtext {
+	position: relative;
+	width: 256px;
+	height: 41px;
+	left: -3px;
+	top: -3px;
+	margin: 0px;
+	border: 0px;
+	padding: 10px 0px 0px 0px;
+	text-align: center;
+	font-size: 12pt;
+	color: rgba(255, 153, 0, 1) ;
+	font-weight: 400;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: .1pt;
+	
+}
+
+p.tutorialtext:hover {
+	font-weight: 700;
+	color: rgba(255,94,20,1);
+}
+
+p.expandstep {
+	position: relative;
+	width: 81px;
+	height: 36px;
+	left: -3px;
+	top: -4px;
+	margin: 0px;
+	border: 0px;
+	padding: 10px 0px 0px 0px;
+	text-align: center;
+	font-size: 10pt;
+	color: white;
+	font-weight: 400;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: .1pt;
+	
+}
+
+p.expandstep:hover {
+	font-weight: 700;
+}
+
+p.vidlink {
+	position: relative;
+	width: 81px;
+	height: 36px;
+	left: -3px;
+	top: -4px;
+	margin: 0px;
+	border: 0px;
+	padding: 10px 0px 0px 0px;
+	text-align: center;
+	font-size: 10pt;
+	color: rgba(255, 153, 0, 1) ;
+	font-weight: 400;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: .1pt;
+	
+}
+
+p.vidlink:hover {
+	font-weight: 700;
+	color: rgba(255,94,20,1);
+}
+
+h3 {
+	font-size: 22pt;
+}
+
+h5 {
+	font-size: 18pt;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: black;
+	text-align: center;
+}
+
+table.stepwise {
+	position: relative;
+	left: 300px;
+	top: 10px;
+	width: 750px;
+}
+
+table.shop_list {
+	position: absolute;
+	left: 40px;
+}
+
+td {
+	padding: 0px;
+	color: black;
+}
+
+td.substepid {
+	font-size: 14pt;
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+td.substepcontent {
+	font-size: 10pt;
+	font-weight: 400;
+	vertical-align: middle;
+}
+
+td.quantity {
+	padding: 0px 0px 1px 5px;
+	color: white;
+}
+
+td.ingredient {
+	padding: 0px 0px 1px 5px;
+	font-style: italic;
+	font-weight: 700;
+	color:white;
+}
+
+
+img.primary {
+	position: absolute;
+	left:0px;
+	top:0px;
+	width: 540px;
+	height: 360px;
+	border-right: 3px solid orange;
+	border-bottom: 3px solid orange;
+}
+
+img.magnifier {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+div.shoplist {
+	position: relative;
+	left: 543px;
+	height: 340px;
+	width: 507px;
+	padding: 20px 0px 0px 30px;
+	top: 0px;
+	border-top-right-radius: 0.25em;
+	border-bottom: 3px solid orange;
+	background-color: rgba(255,94,20,.95);
+}
+
+div.summary {
+	position: absolute;
+	left: 357px;
+	border-top-right-radius: 0.25em;
+	height: 360px;
+	width: 180px;
+	top: 0px;
+}
+
+div.servings {
+	padding: 1px;
+	position: relative;
+	top: 19px;
+	left: 45px;
+	width: 88px;
+	height: 88px;
+	border: 3px solid orange;
+	border-radius: 0.75em;
+	background-color: white;
+	color: black;
+}
+
+div.cooktime {
+	padding: 1px;
+	position: relative;
+	top: 25px;
+	left: 45px;
+	width: 88px;
+	height: 88px;
+	border: 3px solid orange;
+	border-radius: 0.75em;
+	background-color: white;
+	color: black;
+}
+
+div.difficulty {
+	padding: 1px;
+	position: relative;
+	top: 31px;
+	left: 45px;
+	width: 88px;
+	height: 88px;
+	border: 3px solid orange;
+	border-radius: 0.75em;
+	background-color: white;
+	color: black;
+}
+
+div.supplies {
+	position: absolute;
+	padding:10px;
+	margin:0px;
+	bottom:0px;
+	left:35px;
+	width: 482px;
+	height: 24px;
+}
+
+div.chefnotes {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 20px;
+	width: 1080px;
+	height: 180px;
+	border-bottom: 3px solid orange;
+}
+
+div.chefnotescontent {
+	position: absolute;
+	margin-left: 20px;
+	padding:0;
+	top: 55px;
+	width: 1040px;
+	height: 60%;
+
+}
+
+div.chefnotesback {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 270px;
+	height: 55px;
+	background-color: rgba(255,94,20,.95);
+	border-right: 3px solid orange;
+	border-bottom-right-radius: 1em;
+	border-bottom: 3px solid orange;
+}
+
+div.moreinfoback {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	top: 8px;
+	left: 350px;
+	height: 35px;
+	width: 250px;
+	background-color: rgba(40, 145, 40, .65);
+	border: 3px solid rgba(40, 145, 40, 1);
+	border-radius: 1em;
+}
+
+div.moreinfoback:hover {
+	background-color: rgba(40, 145, 40, .8);
+}
+
+div.tutorialback {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	top: 8px;
+	left: 680px;
+	height: 35px;
+	width: 250px;
+	background-color: rgba(255, 153, 0, .075);
+	border: 3px solid orange;
+	border-radius: 1em;
+}
+
+div.tutorialback:hover {
+	border: 3px solid rgba(255,94,20,1);
+	background-color: rgba(255, 153, 0, .15);
+}
+
+div.extendedstep {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	top: 68px;
+	left: 25px;
+	height: 30px;
+	width: 75px;
+	background-color: rgba(40, 145, 40, .65);
+	border: 3px solid rgba(40, 145, 40, 1);
+	border-radius: 1em;
+}
+
+div.extendedstep:hover {
+	background-color: rgba(40, 145, 40, .8);
+}
+
+div.vidbox {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	top: 68px;
+	left: 155px;
+	height: 30px;
+	width: 75px;
+	background-color: rgba(255, 153, 0, .075);
+	border: 3px solid orange;
+	border-radius: 1em;
+}
+
+div.vidbox:hover {
+	border: 3px solid rgba(255,94,20,1);
+	background-color: rgba(255, 153, 0, .15);
+}
+
+div.steps {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	width: 1080px;
+	height: 125px;
+	border-bottom: 3px solid orange;
+}
+
+div.stepnumberback {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 10px;
+	width: 260px;
+	height: 55px;
+	background-color: rgba(255,94,20,.95);
+	border-right: 3px solid orange;
+	border-bottom-right-radius: 1em;
+	border-bottom: 3px solid orange;
+} 
+
+h3.rotate {
+
+color: white;
+text-transform: uppercase;
+letter-spacing: 3px;
+
+
+position: absolute;
+top: -12px;
+left: 37px;
+
+/* Safari */
+-webkit-transform-origin: 0 0;
+-webkit-transform: rotate(90deg);
+
+/* Firefox */
+-moz-transform-origin: 0 0;
+-moz-transform: rotate(90deg);
+
+/* IE */
+-ms-transform-origin: 0 0;
+-ms-transform: rotate(90deg);
+
+/* Opera */
+-o-transform-origin: 0 0;
+-o-transform: rotate(90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+
+}
+
+h1.rotate {
+
+color: white;
+text-transform: uppercase;
+letter-spacing: 4px;
+
+
+position: absolute;
+top: -5px;
+left: 42px;
+margin-left: -44px;
+
+/* Safari */
+-webkit-transform-origin: 0 0;
+-webkit-transform: rotate(90deg);
+
+/* Firefox */
+-moz-transform-origin: 0 0;
+-moz-transform: rotate(90deg);
+
+/* IE */
+-ms-transform-origin: 0 0;
+-ms-transform: rotate(90deg);
+
+/* Opera */
+-o-transform-origin: 0 0;
+-o-transform: rotate(90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+
+}
+
